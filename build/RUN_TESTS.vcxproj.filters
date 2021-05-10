@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\private-git\OpenCVConeDetectionCPlusPlus\build\CMakeFiles\54ab74c2deaf0d09e6556fa07aea89d1\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{38B37DFB-A995-36EB-8C34-A350B0F1BC77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
