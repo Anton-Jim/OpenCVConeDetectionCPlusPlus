@@ -1,0 +1,9 @@
+C:/private-git/OpenCVConeDetectionCPlusPlus/CMakeFiles/NightlyMemoryCheck.dir
+C:/private-git/OpenCVConeDetectionCPlusPlus/CMakeFiles/Experimental.dir
+C:/private-git/OpenCVConeDetectionCPlusPlus/CMakeFiles/Continuous.dir
+C:/private-git/OpenCVConeDetectionCPlusPlus/CMakeFiles/Nightly.dir
+C:/private-git/OpenCVConeDetectionCPlusPlus/CMakeFiles/RUN_TESTS.dir
+C:/private-git/OpenCVConeDetectionCPlusPlus/CMakeFiles/cmake.dir
+C:/private-git/OpenCVConeDetectionCPlusPlus/CMakeFiles/PACKAGE.dir
+C:/private-git/OpenCVConeDetectionCPlusPlus/CMakeFiles/ALL_BUILD.dir
+C:/private-git/OpenCVConeDetectionCPlusPlus/CMakeFiles/ZERO_CHECK.dir
