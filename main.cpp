@@ -7,6 +7,7 @@
 #include "xtensor/xfixed.hpp"
 #include "opencv2/opencv.hpp"
 #include "vector"
+#include "thread"
 
 using namespace cv;
 using namespace std;
@@ -26,6 +27,4 @@ xt::xarray<double> arr2
 
 xt::xarray<double> res = (arr1, 1) + arr2;
 cout << res;
-
-
 }
