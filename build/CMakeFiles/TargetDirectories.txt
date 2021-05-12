@@ -1,4 +1,3 @@
-C:/private-git/OpenCVConeDetectionCPlusPlus/build/CMakeFiles/opencvtest.dir
-C:/private-git/OpenCVConeDetectionCPlusPlus/build/CMakeFiles/PACKAGE.dir
+C:/private-git/OpenCVConeDetectionCPlusPlus/build/CMakeFiles/main.dir
 C:/private-git/OpenCVConeDetectionCPlusPlus/build/CMakeFiles/ALL_BUILD.dir
 C:/private-git/OpenCVConeDetectionCPlusPlus/build/CMakeFiles/ZERO_CHECK.dir
