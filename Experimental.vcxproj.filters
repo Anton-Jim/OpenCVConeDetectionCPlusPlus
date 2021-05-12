@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\private-git\OpenCVConeDetectionCPlusPlus\CMakeFiles\10d05af526ccfe75cd31f77cf78dcf14\Experimental.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\private-git\OpenCVConeDetectionCPlusPlus\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\private-git\OpenCVConeDetectionCPlusPlus\CMakeFiles\Experimental" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5F8576A9-50D2-3287-B710-7B1F791A2952}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

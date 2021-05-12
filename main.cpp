@@ -1,5 +1,10 @@
 #include <iostream>
+#include <opencv.hpp>
 
-int main(int, char**) {
-    std::cout << "Hello, world!\n";
+
+using namespace std;
+
+int main()
+{
+    cout << "Sample Text" << endl;
 }

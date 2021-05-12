@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${vcpkgRoot}/x86-windows/include",
+                "C:/dev/opencv/build/include/opencv2",
+                "C:/dev/"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "forcedInclude": [],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "${vcpkgRoot}/x86-windows/include",
+                    "C:/dev/opencv/build/include/opencv2",
+                    "C:/dev/"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.28.29910/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "${default}"
+        }
+    ],
+    "version": 4
+}
