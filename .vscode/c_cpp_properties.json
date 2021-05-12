@@ -2,11 +2,13 @@
     "configurations": [
         {
             "name": "Win32",
+            /*This tells what we can include in the program*/
             "includePath": [
                 "${workspaceFolder}/**",
-                "${vcpkgRoot}/x86-windows/include",
-                "C:/dev/opencv/build/include/opencv2",
-                "C:/dev/"
+                "C:/dev/opencv/build/include/",
+                "C:/dev/Mamba/Library/lib/cmake",
+                "C:/dev/Mamba/pkgs/xtensor-0.23.9-h5362a0b_0/Library/include",
+                "C:/dev/Mamba/Library/include"
             ],
             "defines": [
                 "_DEBUG",
@@ -16,12 +18,12 @@
             "forcedInclude": [],
             "browse": {
                 "path": [
-                    "${workspaceFolder}/**",
-                    "${vcpkgRoot}/x86-windows/include",
-                    "C:/dev/opencv/build/include/opencv2",
-                    "C:/dev/"
+                "${workspaceFolder}/**",
+                "C:/dev/opencv/build/include/",
+                "C:/dev/Mamba/Library/lib/cmake",
+                "C:/dev/Mamba/pkgs/xtensor-0.23.9-h5362a0b_0/Library/include"
                 ],
-                "limitSymbolsToIncludedHeaders": true
+                "limitSymbolsToIncludedHeaders": false
             },
             "windowsSdkVersion": "10.0.19041.0",
             "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/VC/Tools/MSVC/14.28.29910/bin/Hostx64/x64/cl.exe",

@@ -1,0 +1,48 @@
+Performing C++ SOURCE FILE Test arch_native_supported failed with the following output:
+Change Dir: C:/private-git/OpenCVConeDetectionCPlusPlus/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_3f3c3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /I"C:\src\vcpkg\scripts\buildsystems\msbuild\..\..\..\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D arch_native_supported /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3f3c3.dir\Debug\\" /Fd"cmTC_3f3c3.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue  -march=native "C:\private-git\OpenCVConeDetectionCPlusPlus\build\CMakeFiles\CMakeTmp\src.cxx"
+cl : command line warning D9002: ignoring unknown option '-march=native' [C:\private-git\OpenCVConeDetectionCPlusPlus\build\CMakeFiles\CMakeTmp\cmTC_3f3c3.vcxproj]
+  cmTC_3f3c3.vcxproj -> C:\private-git\OpenCVConeDetectionCPlusPlus\build\CMakeFiles\CMakeTmp\Debug\cmTC_3f3c3.exe
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test arch_native_supported failed with the following output:
+Change Dir: C:/private-git/OpenCVConeDetectionCPlusPlus/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_f7450.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /I"C:\src\vcpkg\scripts\buildsystems\msbuild\..\..\..\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D arch_native_supported /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f7450.dir\Debug\\" /Fd"cmTC_f7450.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue  -march=native "C:\private-git\OpenCVConeDetectionCPlusPlus\build\CMakeFiles\CMakeTmp\src.cxx"
+cl : command line warning D9002: ignoring unknown option '-march=native' [C:\private-git\OpenCVConeDetectionCPlusPlus\build\CMakeFiles\CMakeTmp\cmTC_f7450.vcxproj]
+  cmTC_f7450.vcxproj -> C:\private-git\OpenCVConeDetectionCPlusPlus\build\CMakeFiles\CMakeTmp\Debug\cmTC_f7450.exe
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test arch_native_supported failed with the following output:
+Change Dir: C:/private-git/OpenCVConeDetectionCPlusPlus/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_464d7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /I"C:\src\vcpkg\scripts\buildsystems\msbuild\..\..\..\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D arch_native_supported /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_464d7.dir\Debug\\" /Fd"cmTC_464d7.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue  -march=native "C:\private-git\OpenCVConeDetectionCPlusPlus\build\CMakeFiles\CMakeTmp\src.cxx"
+cl : command line warning D9002: ignoring unknown option '-march=native' [C:\private-git\OpenCVConeDetectionCPlusPlus\build\CMakeFiles\CMakeTmp\cmTC_464d7.vcxproj]
+  cmTC_464d7.vcxproj -> C:\private-git\OpenCVConeDetectionCPlusPlus\build\CMakeFiles\CMakeTmp\Debug\cmTC_464d7.exe
+
+
+Source file was:
+int main() { return 0; }

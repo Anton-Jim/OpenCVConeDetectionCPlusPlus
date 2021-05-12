@@ -1,0 +1,10 @@
+^C:\PRIVATE-GIT\OPENCVCONEDETECTIONCPLUSPLUS\CMAKEFILES\10D05AF526CCFE75CD31F77CF78DCF14\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/private-git/OpenCVConeDetectionCPlusPlus -BC:/private-git/OpenCVConeDetectionCPlusPlus --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/private-git/OpenCVConeDetectionCPlusPlus/main.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
