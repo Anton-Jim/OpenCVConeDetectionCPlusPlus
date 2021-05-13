@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.0.0)
 project(main)
-add_executable(main main.cpp)   
 
+add_executable(main main.cpp)   
+add_executable(Conedetector Conedetector.cpp)
 
 ## OPENCV
 find_package(OpenCV REQUIRED)
@@ -14,9 +15,10 @@ include_directories("C:/dev/opencv/sources/include/")
 include_directories("C:/dev/opencv/build/" PUBLIC ${OpenCV_INCLUDE_DIRS})
 include_directories("C:/dev/opencv/build/include/")
 target_link_libraries(main ${OpenCV_LIBS})
+target_link_libraries(Conedetector ${OpenCV_LIBS})
 
 
-##Xtensor 2 Numpy for C++ Xtensor depends on XTL to be installed
+##Numpy for C++ -> Xtensor depends on XTL to be installed
 #Finding the package
 find_package(xtensor REQUIRED)
 find_package(xtl REQUIRED)
@@ -30,7 +32,8 @@ include_directories(xtensor INTERFACE ${xtl_INCLUDE_DIRS})
 #Finding and Linking the libraries
 target_link_libraries(main ${xtensor_LIBS})
 target_link_libraries(main ${xtl_LIBS})
-
+target_link_libraries(Conedetector ${xtensor_LIBS})
+target_link_libraries(Conedetector ${xtl_LIBS})
 #Adding Main.cpp
 
 
