@@ -170,10 +170,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\private-git\OpenCVConeDetectionCPlusPlus\build\Conedetector.vcxproj">
-      <Project>{8AC9FBC8-E224-3769-B8C1-946A42B35A61}</Project>
-      <Name>Conedetector</Name>
-    </ProjectReference>
     <ProjectReference Include="C:\private-git\OpenCVConeDetectionCPlusPlus\build\main.vcxproj">
       <Project>{083CC437-00A5-3C07-89B8-1481BC97D16A}</Project>
       <Name>main</Name>

@@ -2,10 +2,10 @@ cmake_minimum_required(VERSION 3.0.0)
 project(main)
 
 add_executable(main main.cpp)   
-add_executable(Conedetector Conedetector.cpp)
 
 ## OPENCV
 find_package(OpenCV REQUIRED)
+
 #set(CMAKE_CXX_STANDARD 17)
 include_directories("C:/dev/opencv/build/include")
 include_directories(${OpenCV_INCLUDE_DIRS})
@@ -15,7 +15,7 @@ include_directories("C:/dev/opencv/sources/include/")
 include_directories("C:/dev/opencv/build/" PUBLIC ${OpenCV_INCLUDE_DIRS})
 include_directories("C:/dev/opencv/build/include/")
 target_link_libraries(main ${OpenCV_LIBS})
-target_link_libraries(Conedetector ${OpenCV_LIBS})
+#target_link_libraries(Conedetector ${OpenCV_LIBS})
 
 
 ##Numpy for C++ -> Xtensor depends on XTL to be installed
@@ -23,7 +23,6 @@ target_link_libraries(Conedetector ${OpenCV_LIBS})
 find_package(xtensor REQUIRED)
 find_package(xtl REQUIRED)
 #Finding and Including the directories
-#include_directories("C:/dev/Mamba/Library/lib/cmake")
 include_directories("C:/dev/Mamba/Library/lib/")
 include_directories("C:/dev/Mamba/Library/lib/cmake/" PUBLIC ${xtl_INCLUDE_DIRS})
 include_directories("C:/dev/Mamba/cmake/" PUBLIC ${xtensor_INCLUDE_DIRS})
@@ -32,14 +31,12 @@ include_directories(xtensor INTERFACE ${xtl_INCLUDE_DIRS})
 #Finding and Linking the libraries
 target_link_libraries(main ${xtensor_LIBS})
 target_link_libraries(main ${xtl_LIBS})
-target_link_libraries(Conedetector ${xtensor_LIBS})
-target_link_libraries(Conedetector ${xtl_LIBS})
+
 #Adding Main.cpp
 
-
-
-
-
+#include_directories("C:/dev/Mamba/Library/lib/cmake")
+#target_link_libraries(Conedetector ${xtensor_LIBS})
+#target_link_libraries(Conedetector ${xtl_LIBS})
 #set(xtensor_USE_XSIMD 1)
 #set(xtensor_USE_TBB 1)
 #set(CMAKE_EXE_LINKER_FLAGS /MANIFEST:NO)
