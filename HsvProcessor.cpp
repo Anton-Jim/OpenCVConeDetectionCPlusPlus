@@ -1,8 +1,9 @@
 #include "Thread"
-#include "videosource.h"
+#include "videosource.h" 
 #include "opencv2/opencv.hpp"
 #include "xtensor/xtensor.hpp"
 #include "HSVProcessor.h"
+#include "iostream"
 
 using namespace cv;
 using namespace std;
